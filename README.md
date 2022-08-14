@@ -24,11 +24,11 @@ arguments:
 
 * Input image : 
 
-<img src="/home/said/Projects/Fourier-draw/raccoon_rock_n_roll.jpg" width="400" height="400" />
+<img src="images/raccoon_rock_n_roll.jpg" width="400" height="400" />
 
 * Output animation :
 
-<img src="/home/said/Projects/Fourier-draw/raccoon_epicycles_otsu.gif" width="800" height="800" />
+<img src="animations/raccoon_epicycles_otsu.gif" width="800" height="800" />
 
 
 # Improvements :
