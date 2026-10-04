@@ -30,6 +30,19 @@ arguments:
 
 <img src="animations/raccoon_epicycles_otsu.gif" width="800" height="800" />
 
+# Rust vs Python (fast)
+
+Two faster rewrites are included and compared here on the same raccoon example
+(150 coefficients, 150 frames): `fourier_draw_fast.py` (numpy + matplotlib) on the
+left and `fourier-rs` (Rust, fused with libx264) on the right.
+
+<img src="animations/raccoon_rust_vs_python.gif" width="900" />
+
+| | `fourier_draw_fast.py` | `fourier-rs` |
+|---|---|---|
+| Runtime (3000×3000) | ~3.6 s | ~2.0 s |
+| Dependencies | numpy + matplotlib | Rust toolchain + libx264 |
+| Output | mp4 / gif | mp4 / h264 |
 
 # Improvements :
 
